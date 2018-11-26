@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+ <div>
+  Title: <span th:text="${book.title}"></span><br>
+  Author: <span th:text="${book.author}"></span><br>
+  Price: <span th:text="${book.price}"></span><br>
+  Category: <span th:text="${book.category}"></span><br>
+  <input type=submit value="Order Now" formaction="order/${book.bookId }"/>
+  </div>
+  </form>
+</body>
+</html>

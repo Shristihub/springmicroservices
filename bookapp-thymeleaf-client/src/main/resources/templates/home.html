@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+welcome
+<!-- <form th:action="@{/search}" th:>
+Enter Author<input type="text" th:field="*{author}">
+<input type=submit value="search"/>
+</form>-->
+<form>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Price</th>
+    <th></th>
+  </tr>
+  <tr th:each="book : ${bookList}">
+    <td th:text=${book.title}></td>
+    <td th:text="${book.author}"></td>
+    <td th:text="${book.price}"></td>
+   <td><input type=submit value="View Details" th:formaction="@{'/view/'+${book.bookId}}"/></td> 
+  </tr>
+</table>
+</form>
+</body>
+</html>

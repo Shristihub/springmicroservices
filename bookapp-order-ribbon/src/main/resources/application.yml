@@ -1,0 +1,14 @@
+server:
+  port: 7087
+#BOOK-SERVICE:   
+#  eureka:
+#   enabled: true
+#   enabled: false
+#   listOfServers: localhost:8081,localhost:8082,localhost:8083
+spring:
+  application:
+    name: order-ribbon 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
