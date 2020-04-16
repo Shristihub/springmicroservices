@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: SPRIYA MATHAN
+Build-Jdk: 10.0.1
+Implementation-Title: upwork-app-restapi
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.upworkapp.training
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/upwork-app-restapi
+Created-By: Maven Integration for Eclipse
+
