@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: SPRIYA MATHAN
+Build-Jdk: 10.0.1
+Implementation-Title: upwork-freelancer-restapi
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.example.upwork
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/upwork-freelancer-restapi
+Created-By: Maven Integration for Eclipse
+
